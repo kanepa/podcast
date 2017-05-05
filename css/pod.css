@@ -1,0 +1,73 @@
+
+.jumbotron h1{
+    color: #212121;
+}
+
+.jumbotron p{
+    color: ##212121;
+}
+
+
+
+.jumbotron{
+	background-color: #00ff00;
+	
+}
+
+#control{
+	padding: 20px 20px 20px 20px;
+	border-top: 5px;
+}
+
+
+.mapImage {
+    position: relative;
+    display: inline-block; /*Just for example, so this div is the same size as the image */
+}
+
+.pin {
+    position: absolute; /* Takes this element out the document flow */
+    z-index:10; /* Just in case of z-index issues, remove if not needed */
+}
+
+.pin1 {
+    left: 110px; /* Move pin1 50px left */
+    top: 10px; /* Move pin1 100px down */
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+
+}
+
+h2 { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
+}
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.tidy{
+	box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+// div.polaroid {
+//   width: 250px; 
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+//   text-align: center;
+// }
+
+// div.container {
+//   padding: 10px;
+// }
+
+
